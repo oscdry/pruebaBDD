@@ -1,0 +1,40 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #001F3F;
+    color: #FFFFFF; 
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+.header-overlay {
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Colocar detrás de la imagen */
+}
+
+.image-container {
+    display: inline-block;
+}
+
+.image-container img {
+    max-width: 200px;
+    height: auto;
+}
